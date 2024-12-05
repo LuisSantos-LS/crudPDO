@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+label,input{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    font-size: 13pt;
+    width: 100%;
+}
+
+form{
+    width: 330px;
+    background-color: rgba(0,0,0,.2);
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.6);
+}
+
+input[type="submit"]{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#forms {
+    width: 35%;
+    height: 500px;
+    float: left;
+}
+
+#view {
+    width: 65%;
+    height: 500px;
+    float: right;
+}
+
+table {
+    background-color: rgba(0,0,0,.2);
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.6);
+}
+
+tr{
+    line-height: 30px;
+}
+
+tr#titulo{
+    font-weight: bold;
+    background-color: rgba(0,0,0,.6);
+    color: white;
+}
+
+td{
+    padding: 0px 5px;
+}
+
+a{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+.aviso{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,.6);
+    color: white;
+    width: 90%;
+    height: 50px;  
+    margin: 30px auto 0px auto; 
+}
+
+h4{
+    margin-top: 15px;
+}
